@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* nav bar styling */
+
+.nav-bar {
+    width: 100%;
+}
+
+.nav-bar .nav-items {
+    float: right;
+    margin: .5rem 0;
+}
+
+.nav-bar .nav-items ul {
+    display: inline;
+    padding-inline: 1rem;
+}
+
+.nav-bar .nav-items a {
+    text-decoration: none !important;
+    font-size: 1.5rem;
+    color: #000;
+    display: inline;
+}
+
+.nav-bar .nav-items ul i {
+    font-size: 1.7rem;
+}
+
+.who-we-are{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;  
+}
+
+.who-we-are img{
+    width: 90%;
+    height: 100%;
+    margin: .5rem 0 .5rem .5rem;
+    border: 2px solid brown;
+}
+
+.who-we-are .text{
+    width: 290%;
+    height: auto;
+    display: inline-block;
+    border: 2px solid blue;
+}
+
+.who-we-are h4{
+    font-size: 2vw;
+}
+
+.who-we-are p{
+    width: 100%;
+    height: 100%;
+    font-size: 2vw;
+}
+
